@@ -1,0 +1,14 @@
+#mastHead {
+  background: #333333;
+  height: 50px;
+  padding: 16px;
+}
+
+.layout-toggle {
+  color: #fff;
+  background: transparent;
+  border: none;
+  float: right;
+  outline: none;
+  cursor: pointer;
+}

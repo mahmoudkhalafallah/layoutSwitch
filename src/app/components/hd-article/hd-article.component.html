@@ -1,5 +1,7 @@
 <article [ngClass]="{'aligned-right': (index % 2 === 1)}">
-  <img [src]="article?.urlToImage || 'assets/img/placeholder.jpg'" alt="">
+  <div class="article__img">
+    <img [src]="article?.urlToImage || 'assets/img/placeholder.jpg'" alt="">
+  </div>
   <div class="article__content">
     <a [href]="article?.url">
       <h1>{{article?.title}}</h1>

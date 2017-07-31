@@ -1,1 +1,9 @@
-<hd-article *ngFor="let article of articles; let i = index" [article]="article" [index]="i"></hd-article>
+<header id="mastHead">
+  <button (click)="toggleLayout()" class="layout-toggle">
+    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+  </button>
+</header>
+
+<div class="articles-list" [ngClass]="{'list-view': !listView}">
+  <hd-article *ngFor="let article of articles; let i = index" [article]="article" [index]="i"></hd-article>
+</div>

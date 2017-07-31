@@ -9,7 +9,8 @@ import { ArticlesService } from './services/articles.service';
   providers: [ArticlesService]
 })
 export class AppComponent implements OnInit {
-  articles: Array<Object>
+  articles: Array<Object>;
+  listView: boolean = false;
   constructor(private articleSer: ArticlesService) { }
 
   ngOnInit() {
@@ -18,5 +19,8 @@ export class AppComponent implements OnInit {
       this.articles = res.articles;
       console.log(res);
     })
+  }
+  toggleLayout() {
+    this.listView = !this.listView;
   }
 }
