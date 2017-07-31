@@ -1,0 +1,152 @@
+{
+    "articles": [{
+            "id": 1,
+            "type": "article",
+            "author": "Josh Constine",
+            "title": "Facebook will lease its first San Francisco office, for Instagram",
+            "description": "Facebook is finally getting an office space in San Francisco, and is currently considering several different locations, one of which will house up to 100..",
+            "url": "https://techcrunch.com/2017/06/08/facebook-san-francisco-office/",
+            "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2016/12/facebook_office.jpg?w=764&h=400&crop=1",
+            "publishedAt": "2017-06-09T00:45:53Z"
+        },
+        {
+            "id": 2,
+            "type": "article",
+            "author": "Ingrid Lunden",
+            "title": "Softbank is buying robotics firms Boston Dynamics and Schaft from Alphabet",
+            "description": "Here's a surprise turn of events: Softbank -- maker of the friendly Pepper robot and a major M&A player in the tech world -- has just announced that it is..",
+            "url": "https://techcrunch.com/2017/06/08/softbank-is-buying-robotics-firm-boston-dynamics-and-schaft-from-alphabet/",
+            "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2013/12/bigdog_snow.png?w=512&h=343&crop=1",
+            "publishedAt": "2017-06-09T00:15:03Z"
+        },
+        {
+            "id": 3,
+            "type": "article",
+            "author": "Josh Constine",
+            "title": "Taylor Swift embraces streaming, brings full catalog to Spotify and more",
+            "description": "After breaking up in 2014, Taylor Swift and Spotify are getting back together. To celebrate her album 1989 hitting 10 million records sold and her selling 100..",
+            "url": "https://techcrunch.com/2017/06/08/taylor-swift-spotify/",
+            "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2015/06/taylor-swift-apple-music1.png?w=764&h=400&crop=1",
+            "publishedAt": "2017-06-09T00:04:22Z"
+        },
+        {
+            "id": 4,
+            "type": "article",
+            "author": "Connie Loizos",
+            "title": "Uber just pissed off dozens of longtime employees; now they’re gunning for management",
+            "description": "Earlier this week, at a staff meeting in San Francisco, Uber executives revealed to the company's 12,000 employees that 20 of their colleagues had been..",
+            "url": "https://techcrunch.com/2017/06/08/uber-just-pissed-off-dozens-of-longtime-employees-now-theyre-gunning-for-management/",
+            "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2014/12/shutterstock_127795127.jpg?w=764&h=400&crop=1",
+            "publishedAt": "2017-06-08T23:51:53Z"
+        },
+        {
+            "id": 5,
+            "type": "article",
+            "author": "Brian Heater",
+            "title": "Teaching teams of drones to work alongside humans and nature",
+            "description": "The Robust Reactive Systems Lab just might have the highest ceilings of any lab on the Carnegie Mellon campus. It’s big and drafty, and were it not for the..",
+            "url": "https://techcrunch.com/2017/06/08/teaching-teams-of-drones-to-work-alongside-humans-and-nature/",
+            "urlToImage": "https://img.vidible.tv/prod/2017-06/04/593345ca8c08e04d1dcfb7cc/59334600e6604d49cb2691cb_o_U_v1.jpg?w=764&h=400",
+            "publishedAt": "2017-06-08T22:35:08Z"
+        },
+        {
+            "id": 6,
+            "type": "video",
+            "author": "rangergiya",
+            "title": "Funniest Seinfeld Moments Part 1",
+            "description": "Funniest Seinfeld Moments Part 1. This is not my video. ",
+            "url": "https://www.youtube.com/watch?v=PaPxSsK6ZQA",
+            "urlToImage": "https://i.ytimg.com/vi/PaPxSsK6ZQA/hqdefault.jpg",
+            "publishedAt": "2008-06-01T05:31:53.000Z"
+        },
+        {
+            "id": 7,
+            "type": "video",
+            "author": "TheStochasticBrother",
+            "title": "Seinfeld — Lady That Wears Only One Dress",
+            "description": "Jerry is puzzled because he can't figure out why the girl he is dating seems to be wearing the same dress every time he sees her. From Seinfeld (Season 7, ...",
+            "url": "https://www.youtube.com/watch?v=9KrN9OBhpyQ",
+            "urlToImage": "https://i.ytimg.com/vi/9KrN9OBhpyQ/hqdefault.jpg",
+            "publishedAt": "2015-08-17T14:45:29.000Z"
+        },
+        {
+            "id": 8,
+            "author": "extratv",
+            "title": "Jerry Seinfeld on Denying Kesha a Hug, and Their Off-Camera Exchange Afterward",
+            "description": "Today, only “Extra's” AJ Calloway was with Jerry Seinfeld at the GOOD+ Foundation and MR PORTER Fatherhood Lunch, where the comedian reacted to the ...",
+            "url": "https://www.youtube.com/watch?v=nUJEp7oiI0M",
+            "urlToImage": "https://i.ytimg.com/vi/nUJEp7oiI0M/hqdefault.jpg",
+            "publishedAt": "2017-06-08T20:57:45.000Z"
+        },
+        {
+            "id": 9,
+            "type": "video",
+            "author": "Complex News",
+            "title": "Jerry Seinfeld Brutally Curves Kesha on Red Carpet",
+            "description": "Kesha attempted to give Jerry Seinfeld a hug while he was conducting an interview on the red carpet at The David Lynch Foundation's National Night of ...",
+            "url": "https://www.youtube.com/watch?v=429pNbHcaRE",
+            "urlToImage": "https://i.ytimg.com/vi/429pNbHcaRE/hqdefault.jpg",
+            "publishedAt": "2017-06-07T16:13:26.000Z"
+        },
+        {
+            "id": 10,
+            "type": "video",
+            "author": "Hanc69",
+            "title": "Jerry Seinfeld   Full Stand Up Comedy",
+            "description": "Full Stand Up Comedy.",
+            "url": "https://www.youtube.com/watch?v=udSueYXIkkA",
+            "urlToImage": "https://i.ytimg.com/vi/udSueYXIkkA/hqdefault.jpg",
+            "publishedAt": "2017-06-07T16:13:26.000Z"
+        },
+        {
+            "id": 11,
+            "type": "tweet",
+            "author": "Real Madrid",
+            "title": "Congratulations to @lm19official!",
+            "description": "🔝🇭🇷⚽️\nCongratulations to @lm19official!\n\n👏👏👏👏👏\n\n#HalaMadrid\n\nhttps://t.co/d1o9Cwa38p",
+            "url": "https://twitter.com/realmadriden/status/873141797882662912",
+            "urlToImage": "",
+            "publishedAt": "2017-06-09T11:36:41Z"
+        },
+        {
+            "id": 12,
+            "type": "tweet",
+            "author": "Real Madrid",
+            "title": "RT @realmadrid: 🏆🏅😀 #CHAMP12NS",
+            "description": "RT @realmadrid: 🏆🏅😀 #CHAMP12NS\n🇩🇴 @marianodiaz9 https://t.co/dSBEOuon6L",
+            "url": "https://twitter.com/realmadriden/status/873124567207657474",
+            "urlToImage": "http://pbs.twimg.com/media/DB3w0CWUQAM-v-4.jpg",
+            "publishedAt": "2017-06-09T10:28:13Z"
+        },
+        {
+            "id": 13,
+            "type": "tweet",
+            "author": "Real Madrid",
+            "title": "👕🏆👑 #RMShop Wear it with pride ➡️ THE 12TH IS OURS!",
+            "description": "👕🏆👑 #RMShop \nWear it with pride ➡️ THE 12TH IS OURS!\n\n👉 https://t.co/BaSoCoMxGO https://t.co/nIx4V28rGB",
+            "url": "https://twitter.com/realmadriden/status/873104154821967875",
+            "urlToImage": "http://pbs.twimg.com/media/DB3jjjZV0AEBWsl.jpg",
+            "publishedAt": "2017-06-09T09:07:07Z"
+        },
+        {
+            "id": 14,
+            "type": "tweet",
+            "author": "Chelsea",
+            "title": "Good luck to @willianborges88 and @DavidLuiz_4 today",
+            "description": "Good luck to @willianborges88 and @DavidLuiz_4 today as Brazil take on Argentina in an international friendly... https://t.co/NiLOOkHv0B",
+            "url": "https://twitter.com/ChelseaFC/status/873118640870113280",
+            "urlToImage": "http://pbs.twimg.com/media/DB3v0zlVoAIcI69.jpg",
+            "publishedAt": "2017-06-09T10:04:43Z"
+        },
+        {
+            "id": 15,
+            "type": "tweet",
+            "author": "Tottenham",
+            "title": "@ProstateUK's annual Football to Amsterdam fundraiser is underway",
+            "description": "@ProstateUK's annual Football to Amsterdam fundraiser is underway - 400 cyclists departed the Olympic Velodrome for Holland this morning.",
+            "url": "https://twitter.com/SpursOfficial/status/873143984834707456`",
+            "urlToImage": "",
+            "publishedAt": "2017-06-09T11:45:23Z"
+        }
+    ]
+}
