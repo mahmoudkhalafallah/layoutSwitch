@@ -1,0 +1,61 @@
+:host article {
+  /* background: #000; */
+}
+
+:host article:before, :host article:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.article__content {
+  padding: 15px;
+  float: left;
+  border-bottom: 2px solid #fc6703;
+  padding-bottom: 35px;
+}
+.dot {
+  font-size: 30px;
+  line-height: 0;
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+}
+
+img {
+  width: 100%;
+}
+
+.article__author span {
+    color: #fc6703;
+}
+
+a {
+  transition: 0.3s ease;
+}
+a:hover {
+  color: #fc6703;
+}
+
+@media (min-width: 1024px) {
+  img {
+    float: left;
+  }
+
+  .article__content, img {
+    width: 50%;
+  }
+
+  .article__content {
+    border-bottom: 0;
+    padding-bottom: 0
+  }
+
+  .aligned-right {
+    text-align: right;
+  }
+
+  .aligned-right img {
+    float: right;
+  }
+}

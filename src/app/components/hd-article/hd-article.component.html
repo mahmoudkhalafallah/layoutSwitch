@@ -1,0 +1,19 @@
+<article [ngClass]="{'aligned-right': (index % 2 === 1)}">
+  <img [src]="article?.urlToImage || 'assets/img/placeholder.jpg'" alt="">
+  <div class="article__content">
+    <a [href]="article?.url">
+      <h1>{{article?.title}}</h1>
+    </a>
+    <h4 class="article__author" *ngIf="article?.author"><span>By</span> {{article?.author}}</h4>
+    <p class="article__desc">
+      {{article?.description}}
+    </p>
+    <time><i class="fa fa-calendar" aria-hidden="true"></i> {{article?.publishedAt | date}}</time>
+    <span *ngIf="article?.type" class="dot">.</span>
+    <i *ngIf="article?.type === 'note'" class="fa fa-sticky-note" aria-hidden="true"></i>
+    <i *ngIf="article?.type === 'video'" class="fa fa-video-camera" aria-hidden="true"></i>
+    <i *ngIf="article?.type === 'article'" class="fa fa-file" aria-hidden="true"></i>
+    <i *ngIf="article?.type === 'tweet'" class="fa fa-twitter" aria-hidden="true"></i>
+
+  </div>
+</article>
