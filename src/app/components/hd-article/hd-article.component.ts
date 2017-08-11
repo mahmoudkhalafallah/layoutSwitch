@@ -6,8 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 
 export class HDArticleComponent implements OnInit {
-  @Input() article: Object;
-  @Input() index: Number;
+  @Input() article;
+  @Input() index: number;
   constructor() { }
 
   ngOnInit() {}
