@@ -10,17 +10,32 @@ import { ArticlesService } from './services/articles.service';
 })
 export class AppComponent implements OnInit {
   articles: Array<Object>;
-  listView: boolean = false;
+  listView = 'list';
+  showSwitcher = false;
   constructor(private articleSer: ArticlesService) { }
 
   ngOnInit() {
     // loading data
     this.articleSer.getArticles().subscribe(res => {
       this.articles = res.articles;
-      console.log(res);
-    })
+    });
   }
-  toggleLayout() {
-    this.listView = !this.listView;
+  switchLayout(layout) {
+    switch (layout) {
+      case 'grid':
+        this.listView = 'grid';
+        break;
+      case 'list':
+        this.listView = 'list';
+        break;
+      case 'cards':
+        this.listView = 'cards';
+        break;
+      default:
+        this.listView = 'grid';
+        break;
+    }
+    // hide layout switcher
+    this.showSwitcher = false;
   }
 }

@@ -1,10 +1,29 @@
-:host article {
-  /* background: #000; */
-}
-
-:host article:before, :host article:after {
+article:before,
+article:after {
   content: '';
   clear: both;
   display: table;
 }
 
+.article__img-container {
+  position: relative;
+}
+
+.article__type {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background: #f60;
+  color: #fff;
+  border: 2px solid #eee;
+  padding: 5px 0;
+  height: 25px;
+  width: 25px;
+  font-size: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+time {
+  color: #909090;
+}

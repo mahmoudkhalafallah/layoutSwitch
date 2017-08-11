@@ -1,9 +1,14 @@
 <header id="mastHead">
-  <button (click)="toggleLayout()" class="layout-toggle">
+  <button class="layout-toggle" (click)="showSwitcher = true;">
     <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
   </button>
+  <ul class="view-switcher" *ngIf="showSwitcher">
+    <li (click)="switchLayout('grid');">grid</li>
+    <li (click)="switchLayout('list');">list</li>
+    <li (click)="switchLayout('cards');">cards</li>
+  </ul>
 </header>
 
-<div class="articles-list" [ngClass]="{'list-view': !listView}">
-  <hd-article *ngFor="let article of articles; let i = index" [article]="article" [index]="i"></hd-article>
+<div class="articles-list" [ngClass]="{'list-view': listView === 'list', 'grid-view': listView === 'grid', 'cards-view': listView === 'cards'}">
+  <app-hd-article class="hd-article" *ngFor="let article of articles; let i = index" [article]="article" [index]="i"></app-hd-article>
 </div>

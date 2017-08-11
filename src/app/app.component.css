@@ -12,3 +12,28 @@
   outline: none;
   cursor: pointer;
 }
+
+.view-switcher {
+  color: #000;
+  background: #ffffff;
+  float: right;
+  list-style: none;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 1px #eee;
+  text-transform: capitalize;
+}
+
+.view-switcher li {
+  border-bottom: 1px solid #eee;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.view-switcher li:hover {
+  background: #eee;
+}
