@@ -3,9 +3,9 @@
     <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
   </button>
   <ul class="view-switcher" *ngIf="showSwitcher">
-    <li (click)="switchLayout('grid');">grid</li>
-    <li (click)="switchLayout('list');">list</li>
-    <li (click)="switchLayout('cards');">cards</li>
+    <li (click)="switchLayout('grid');" [ngClass]="{'active': listView === 'grid'}">grid</li>
+    <li (click)="switchLayout('list');" [ngClass]="{'active': listView === 'list'}">list</li>
+    <li (click)="switchLayout('cards');" [ngClass]="{'active': listView === 'cards'}">cards</li>
   </ul>
 </header>
 

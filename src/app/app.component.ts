@@ -10,7 +10,7 @@ import { ArticlesService } from './services/articles.service';
 })
 export class AppComponent implements OnInit {
   articles: Array<Object>;
-  listView = 'list';
+  listView = 'grid';
   showSwitcher = false;
   constructor(private articleSer: ArticlesService) { }
 
