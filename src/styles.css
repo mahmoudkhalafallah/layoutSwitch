@@ -52,6 +52,10 @@ a:hover {
   vertical-align: middle;
 }
 
+.hd-article {
+  display: block;
+}
+
 .article__content {
   padding: 15px;
   border-bottom: 2px solid #fc6703;
@@ -118,8 +122,12 @@ a:hover {
   }
   .articles-list.list-view .hd-article article {
     font-size: 0;
-    border-bottom: 2px solid #fc6703;
+    border-bottom: 1px solid #fc6703;
     padding-left: 15px;
+  }
+
+  .articles-list.list-view .hd-article:nth-child(even) {
+    background: #eee;
   }
   /* cards view */
   .articles-list.cards-view {
