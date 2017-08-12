@@ -138,4 +138,7 @@ a:hover {
   .articles-list.cards-view .hd-article {
     width: 25%;
   }
+  .articles-list.cards-view .hd-article:nth-child(even) {
+    background: #eee;
+  }
 }
